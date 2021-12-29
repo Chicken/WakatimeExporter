@@ -1,0 +1,16 @@
+{
+    "name": "wakatimeexporter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Antti <antti@antti.codes>",
+    "license": "MIT",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "start": "node -r dotenv/config --es-module-specifier-resolution=node ."
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "mariadb": "^2.5.5"
+    }
+}
